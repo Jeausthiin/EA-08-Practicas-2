@@ -1,0 +1,137 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 feb 2023, 13:29:06
+    Author     : Jeausthin
+*/
+
+
+.header {
+    background-color: #0D0D0D;
+    padding: 50px 20px;
+    height: 80px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-a {
+    font-family: 'Passion One', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.nav-aa {
+    font-family: 'Passion One', sans-serif;
+    color: #F20505;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav-ul-li {
+    margin: 20px 20px;
+}
+
+.nav-ul-li-a {
+    font-family: 'Passion One', sans-serif;
+    top: 10px;
+    padding: 10px;
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-ul-li-a:hover {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-ul-li-a-seleccionada {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.aside{
+    background-color: #D9D9D9;
+    position: fixed;
+
+    top: 180px;
+    left: 300px;
+    text-align: center;
+    font-family: 'Passion One', sans-serif;
+    font-weight: bold;
+    width: 70%;
+    font-size: 20px;
+}
+
+body{
+    background-color: whitesmoke;
+    padding: 80px 20px 0 0;
+}
+
+.contenido{
+    font-family: 'Passion One', sans-serif;
+    font-weight: bold;
+    background-color: #D9D9D9;
+    position: fixed;
+    right: 0;
+    top: 250px;
+    left: 300px;
+    bottom: 0px;
+    width: 68%;
+    overflow: scroll;
+    font-size: 20px;
+    padding: 20px;
+    position: fixed;
+}
+
+.titulocentrado{
+    text-align: center;
+    color: white;
+    background-color: #F20505;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.centrado{
+    display: flex;
+    margin: auto;
+
+}
+
+p {
+  text-align: justify;
+}
+
+.fooder{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
